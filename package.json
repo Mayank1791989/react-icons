@@ -1,0 +1,58 @@
+{
+  "name": "@playlyfe/react-icons",
+  "version": "2.2.7",
+  "description": "svg react icons of popular icon packs using ES6 imports",
+  "scripts": {
+    "clean": "rimraf es lib",
+    "build": "babel-node ./scripts/build",
+    "release": "np",
+    "prepublish": "yarn clean && yarn build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mayank1791989/react-icons.git"
+  },
+  "keywords": [
+    "react",
+    "icons",
+    "inline",
+    "svg",
+    "font",
+    "awesome",
+    "material",
+    "design"
+  ],
+  "author": "Mayank Agarwal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mayank1791989/react-icons/issues"
+  },
+  "homepage": "https://github.com/mayank1791989/react-icons#readme",
+  "files": [
+    "es",
+    "lib",
+    "package.json"
+  ],
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-core": "6.26.0",
+    "babel-plugin-add-module-exports": "0.2.1",
+    "babel-plugin-transform-runtime": "6.23.0",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-playlyfe": "2.0.4",
+    "babel-preset-react": "6.24.1",
+    "babel-preset-stage-0": "6.24.1",
+    "cross-env": "5.1.4",
+    "fs-extra": "5.0.0",
+    "globby": "8.0.1",
+    "np": "2.20.1",
+    "rimraf": "2.6.2"
+  },
+  "dependencies": {
+    "babel-runtime": "6.26.0",
+    "react-icons": "2.2.7"
+  },
+  "peerDependencies": {
+    "react": "^0.14.0 || ^15.0.0 || ^16.0.0"
+  }
+}
